@@ -4,7 +4,7 @@ This code accompanies the CppCon 2024 talk "Linear Algebra with The Eigen C++ Li
 
 The reference implementation of stdBLAS (plus `mdspan`) is also included in the repository.  It works in Visual Studio 2022 if you include the kokkos directory as a subdirectory in your project.  You will also need the Eigen header files (header-only library), available here: https://eigen.tuxfamily.org/
 
-So, if your project name is `SampleCode`, then you should place the following in your include path:
+So, if your project name is `SampleCode`, then you should place the following in your include path:  
 `c:\SampleCode\kokkos`
 `c:\YourLibraries\eigen-3.4.0`
 
