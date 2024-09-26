@@ -1,7 +1,7 @@
 # _Linear Algebra with The Eigen C++ Library_
 ## CppCon 2024 Sample Code
 
-This code accompanies the CppCon 2024 talk "Linear Algebra with The Eigen C++ Library", presented by Daniel Hanson.  There are additional examples along with code examples shown during the presentation. 
+This code accompanies the CppCon 2024 talk _Linear Algebra with The Eigen C++ Library_, presented by Daniel Hanson.  There are additional examples along with code examples shown during the presentation. 
 
 The reference implementation of stdBLAS (plus `mdspan`) is also included in the repository.  It works in Visual Studio 2022 if you include the kokkos directory as a subdirectory in your project.  You will also need the Eigen header files (header-only library), available here: https://eigen.tuxfamily.org/
 
@@ -13,8 +13,8 @@ Also, if using Visual Studio, in your project settings, make sure to:
 1. Use the most recent compiler  
 2. Use the Clang compiler option (the stdBLAS code will not compiler with the VS compiler)  
 
-Some supplemental information:
+Some supplemental resources:
 
-stdBLAS reference implementation repository and information:  https://github.com/kokkos/stdBLAS
-Eigen in quantitative finance (Quantstart article): https://www.quantstart.com/articles/Eigen-Library-for-Matrix-Algebra-in-C
-Eigen chosen for ATLAS Experiment (CERN) tracking software:  https://iopscience.iop.org/article/10.1088/1742-6596/608/1/012047/pdf
+* stdBLAS reference implementation repository and information:  https://github.com/kokkos/stdBLAS  
+* Eigen in quantitative finance (Quantstart article): https://www.quantstart.com/articles/Eigen-Library-for-Matrix-Algebra-in-C  
+* Eigen chosen for ATLAS Experiment (CERN) tracking software:  https://iopscience.iop.org/article/10.1088/1742-6596/608/1/012047/pdf  
