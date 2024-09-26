@@ -14,6 +14,6 @@ Also, if using Visual Studio, in your project settings, make sure to:
 
 Some supplemental information:
 
+stdBLAS reference implementation repository and information:  https://github.com/kokkos/stdBLAS
 Eigen in quantitative finance (Quantstart article): https://www.quantstart.com/articles/Eigen-Library-for-Matrix-Algebra-in-C
-
 Eigen chosen for ATLAS Experiment (CERN) tracking software:  https://iopscience.iop.org/article/10.1088/1742-6596/608/1/012047/pdf
